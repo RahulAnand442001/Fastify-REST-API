@@ -11,7 +11,7 @@ Fastify-REST-api program handling CRUD operaions using NodeJS, MongoDB. Postman 
 ## Installation and Run : 
 ### 1. npm install
 ### 2. Spin Mongod server by runnning the following command in Terminal > mongod
-### 2. npm start
+### 3. npm start
 
 
 ## for postman testing results and routings visit my documentation :
