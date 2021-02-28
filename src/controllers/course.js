@@ -10,6 +10,7 @@ exports.getAllCourses = async (req, reply) => {
   }
 };
 
+// get single course by id
 exports.getSingleCourse = async (req, reply) => {
   try {
     const courseId = req.params.courseId;
@@ -20,6 +21,8 @@ exports.getSingleCourse = async (req, reply) => {
   }
 };
 
+// add single course
+
 exports.addCourse = async (req, reply) => {
   try {
     const course = new Course(req.body);
@@ -29,6 +32,8 @@ exports.addCourse = async (req, reply) => {
     throw error;
   }
 };
+
+// update single course by id
 
 exports.updateCourse = async (req, reply) => {
   try {
@@ -44,7 +49,7 @@ exports.updateCourse = async (req, reply) => {
   }
 };
 
-// delete an existing course
+// delete an existing course by id
 
 exports.deleteCourse = async (req, reply) => {
   try {
